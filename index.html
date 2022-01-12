@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"prefix="
+    og: http://ogp.me/ns#
+    fb: http://ogp.me/ns/fb#
+    article: http://ogp.me/ns/article#
+">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,15 +18,18 @@
           <li class="nav__item"><a сlass="nav__link" href="#">It is I can do for you</a></li>
           <li class="nav__item"><a сlass="nav__link" href="#">Education</a></li>
           <li class="nav__item"><a сlass="nav__link" href="#">Experience</a></li>
-          <li class="nav__item"><a hсlass="nav__link" ref="#">Portfolio</a></li>
-          <li class="nav__item"><a сlass="nav__link" href="#"></a>Code</li>
+          <li class="nav__item"><a сlass="nav__link" href="#">Portfolio</a></li>
+          <li class="nav__item"><a сlass="nav__link" href="#now">I'm ready</a></li>
+          <li class="nav__item"><a сlass="nav__link" href="#experience">Experience</a></li>
         </ul>
       </nav>
       <div class="burger-button"></div>
       <!-- /.burger-button -->
       <div class="name">
+        <h2 class="name-hi">Hello, I'm</h2>
         <h1>Aleksander Zabrodski</h1>
-        <h2>Front-End Web Developer</h2>
+        <h2 class="name-job">Front-End Web Developer</h2>
+        <p class="name-text">I created this page specifically for potential employers. Here are my projects from my portfolio, a description of my skills and my contacts</p>
       </div>
       <!-- /.name -->
       <div class="avatar">
@@ -30,7 +37,92 @@
       </div>
       <!-- /.avatar -->
     </header>
-    
+    <main>
+      <section class="about-me">
+        <h3 class="title about-me__title">It is I can do for you</h3>
+        <p class="about-me__text">I can make up websites from design layouts. I have worked with PSD, Adobe XD and Figma layouts. I can to design mobile versions of sites in Figma</p>
+        <div class="about-me__item">
+          <h4 class="title">Pixel to Pixel</h4>
+          <p class="about-me__text text">I understand how important it is to make up sites exactly according to the layout, so if necessary, I make up using Pixel Perfect</p>
+          <img src="" alt="Pixel Perfec show">
+        </div>
+        <!-- /.about-me__item -->
+        <div class="about-me__item">
+          <h4 class="title">somatic layout</h4>
+          <p class="about-me__text text">I do semantically correct markup, and also pass a code validation check without any problems</p>
+        </div>
+        <!-- /.about-me__item -->
+        <div class="about-me__item">
+          <h4 class="title">responsive layout</h4>
+          <p class="about-me__text text">I make up adaptively, I check the layout on various screens</p>
+        </div>
+        <!-- /.about-me__item -->
+        <div class="about-me__item">
+          <h4 class="title">styles on processors</h4>
+          <p class="about-me__text text"> I write styles using the sass and scss preprocessor. therefore, it turns out to write quickly and easily find the right piece of code</p>
+        </div>
+        <!-- /.about-me__item -->
+        <div class="about-me__item">
+          <h4 class="title">hosting, domain, git and etc.</h4>
+          <p class="about-me__text text"> I know how to set up hosting, bind a domain and register an ssl certificate. I usually keep the project itself in a repository on github, although I haven't participated in the team developer yet, so I don't know git 100%</p>
+        </div>
+        <!-- /.about-me__item -->
+      </section>
+      <!-- /.about-me -->
+      <section class="stady">
+        <h3 class="title stady__title">where I studied</h3>
+        <div class="stady__item">
+          <h4 class="title">on my own</h4>
+          <p class="stady__text text">I studied on my own. I started by watching videos on YouTube. I watched the author write the code, then repeated it, then started writing the code myself, I asked for feedback in chats where there were more experienced developers</p>
+        </div>
+        <!-- /.stady__item -->
+          <h4 class="title">courses</h4>
+          <p class="stady__text text">I took a 10-week intensive web development course at Glo-academy. at the end of the course, I defended my thesis project</p>
+          <p class="stady__text text">if I find more good courses that improve my qualifications, I will definitely pass them</p>
+        </div>
+        <!-- /.stady__item -->
+      </section>
+      <!-- /.stady -->
+      <section class="progect">
+        <h3 class="title progect__title">my last projects</h3>
+        <div class="progect__grid">
+          <div class="project__item">
+            <a class="progect-block" target="_blank"
+              href="https://alex-zabrodski.com/Best-tour-plan/">
+              <figure>
+                <img src="" alt="Best-tour-plan Page">
+                <figcaption>
+                  <div class="project-name">Best-tour-plan</div>
+                  <div class="project-description">Vacation project<br>(HTML, CSS, JS)</div>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <!-- /.project__item -->
+        </div>
+        <!-- /.progect__grid -->
+      </section>
+      <!-- /.progect -->
+      <section class="now" id="now">
+        <div class="now__item">
+          <h4 class="title">now</h4>
+          <p class="now__text text">it's open now. the postcard is an offer, you can invite me to the project full-time or part-time. I can move to another citi if necessary
+          city</p>
+        </div>
+        <!-- /.now__item -->
+      </section>
+      <!-- /.now -->
+      <section class="experience" id="experience">
+        <div class="experience__item">
+          <h4 class="title">where did I work?</h4>
+          <p class="experience__text text">I've been worked 4 years as a non-IT manager and 9 years as a border guard office</p>
+        </div>
+        <!-- /.experience__item -->
+      </section>
+      <!-- /.experience -->
+    </main>
+
+
   </div>
   <!-- /.container -->
 </body>
